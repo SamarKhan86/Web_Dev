@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lecture 3</title>
+	</head>
+	<body>
+		<form action="/action">
+			<label for="name">Name: </label>
+			<input type="text" id="name" name="name" />
+			<br /><br />
+
+			<label for="sex">Sex: </label>
+			<input type="radio" id="male" name="sex" value="male" />
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="sex" value="female" />
+			<label for="female">Female</label>
+			<br /><br />
+
+			<label for="country">Country: </label>
+			<select name="country" id="country"> 
+				<option>Select an option</option>
+				<option value="india">India</option>
+				<option value="nepal">Nepal</option>
+				<option value="usa">USA</option>
+				<option value="Canada">Canada</option>
+			</select>
+			<br /><br />
+
+			<label for="message">Message:</label>
+			<br />
+			<textarea id="message" name="message" rows="4" cols="30"></textarea>
+			<br /><br />
+
+			<input type="checkbox" id="subscribe" name="subscribe" />
+			<label for="subscribe">Subscribe?</label>
+			<br /><br />
+
+		<button>Submit</button>
+		</form>
+	</body>
+</html>
+
