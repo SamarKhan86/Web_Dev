@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center; 
+}
+
+.delete {
+  margin-left: 0.75rem;
+}
+
+li{
+  margin-top: 5px;
+}
+
+.app {
+  text-align: left; 
+}
+

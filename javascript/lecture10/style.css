@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+
+h3 {
+	margin: 1rem;
+}
+
+.btn {
+	margin: 1rem;
+} 
+
+.box {
+	width: 500px;
+	height: 100px;
+	margin: auto;
+	border: 2px solid black;
+	text-align: center;
+}
